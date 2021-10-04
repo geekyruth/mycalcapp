@@ -12,10 +12,13 @@
 
 <body>
     <div class="main-wrapper">
-        <div class="calc-display"></div>
+        <div class="calc-display">
+            <span  id="main-display"></span>
+            <span id="calc-answer"class="answer-text"></span>
+        </div>
         <div class="column">
             <div class="row">
-                <button id="number-7" value="7">7</button>
+                <button value="7">7</button>
                 <button value="8">8</button>
                 <button value="9">9</button>
                 <button value="+" class="operator">+</button>
@@ -42,7 +45,8 @@
             <button value="=" class="operator">=</button>
         </div>
     </div>
-    <script type="text/javacript" src="./calc.js"></script>
+    <script type="text/javascript" src="./functions.js"></script>
+    <script type="text/javascript" src="./calc.js"></script>
 </body>
 
 </html>
